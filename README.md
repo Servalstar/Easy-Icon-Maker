@@ -1,6 +1,6 @@
 # Easy Icon Maker
 Easy Icon Maker is a simple but flexible tool for creating images from 3D objects in Unity.
-![Main](https://github.com/Servalstar/Easy-Icon-Maker/blob/master/Screenshots/main screen.jpg)
+![Main](https://github.com/Servalstar/Easy-Icon-Maker/blob/master/Screenshots/main_screen.jpg?raw=true)
 ## Key features:
 - creating an image from objects with the MeshRenderer component in a specially created scene
 - work from the Unit Editor or from your code
