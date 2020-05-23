@@ -28,7 +28,7 @@ Texture2D MakeImage(string folderPathf, string name, int size, Texture texBG) me
 - texBG - image to be used as background.
 
 ```csharp
-using IconCreator;
+using EasyIconMaker;
 //...
 	// creating Preview Scene
 	PreviewScene preview = new PreviewScene();
