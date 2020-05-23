@@ -127,7 +127,7 @@ namespace EasyIconMaker
         private void CheckDefaultFolderPathf()
         {
             if (folderPathf == "")
-                folderPathf = "Assets/Preview Creator/";
+                folderPathf = "Assets/Easy Icon Maker/";
         }
 
 

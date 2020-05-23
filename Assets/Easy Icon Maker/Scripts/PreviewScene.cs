@@ -166,10 +166,10 @@ namespace EasyIconMaker
             Light1.enabled = true;
             Light2.enabled = true;
 
-            if (folderPathf == null || folderPathf == "")
-                folderPathf = "Assets/Preview Creator/";
+            if (folderPathf == "default")
+                folderPathf = "Assets/Easy Icon Maker/";
 
-            if (name == null && PreviewObjectInstance != null)
+            if (name == "default" && PreviewObjectInstance != null)
                 name = PreviewObjectInstance.name;
 
             Texture2D image = HandlerCameraRender.MakePreview(PreviewCamera, folderPathf, name, size, texBG);
