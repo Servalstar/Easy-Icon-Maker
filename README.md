@@ -10,10 +10,10 @@
 - the ability to select a folder to save the image (by default, images are saved in the "Assets/Easy Icon Maker" folder)
 ## Examples of getting an image from the code:
 Creating an image will consist of several basic steps:
-- scene creation preview
-- creation of adding an object with the MeshRenderer component to the scene
-- create a call to create an image method
-- cleaning the scene preview
+- create a preview scene
+- adding an object with the MeshRenderer component to the scene
+- calling the image-making method
+- clear scene preview
 
 Optionally, you can customize the scene using the following properties of the scene object:
 - GameObject CameraContainer (used for rotation the camera around the object)
