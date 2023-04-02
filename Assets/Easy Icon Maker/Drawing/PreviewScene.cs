@@ -3,14 +3,14 @@ using UnityEngine;
 
 namespace EasyIconMaker
 {
+#if UNITY_EDITOR
     public class PreviewScene
     {
         public PreviewScene()
         {
             InitPreviewScene();
         }
-
-
+        
         public PreviewRenderUtility PreviewUtility { get; set; } 
 
         private void InitPreviewScene()
@@ -189,4 +189,5 @@ namespace EasyIconMaker
             }
         }
     }
+#endif
 }

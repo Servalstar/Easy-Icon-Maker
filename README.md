@@ -1,5 +1,5 @@
 # Easy Icon Maker
-##### Easy Icon Maker is a simple but flexible tool for creating images from 3D objects in Unity.
+##### Easy Icon Maker is a simple but flexible tool for creating images from 3D objects in Unity Editor.
 ![Main](https://github.com/Servalstar/Easy-Icon-Maker/blob/master/Screenshots/main_screen.jpg?raw=true)
 ## Key features:
 - creating an image from objects with the MeshRenderer component in a specially created scene
@@ -30,6 +30,9 @@ Texture2D MakeImage(string folderPathf, string name, int size, Texture texBG) me
 ```csharp
 using EasyIconMaker;
 //...
+
+#if UNITY_EDITOR
+
 	// creating Preview Scene
 	PreviewScene preview = new PreviewScene();
 	
@@ -59,5 +62,8 @@ using EasyIconMaker;
 	
 	// clearing the scene
 	preview.Cleanup();
+	
+#endif
+
 //...
 ```

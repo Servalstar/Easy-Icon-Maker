@@ -3,7 +3,8 @@ using UnityEngine;
 
 namespace EasyIconMaker
 {
-    public class PreviewWindowDrawler
+#if UNITY_EDITOR
+    public class PreviewWindowDrawer
     {
         public static PreviewScene PreviewSceneInstance { get; set; }
         private GUIStyle createButtonStyle;
@@ -427,4 +428,5 @@ namespace EasyIconMaker
 
         #endregion
     }
+#endif
 }

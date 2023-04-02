@@ -4,6 +4,7 @@ using UnityEngine;
 
 namespace EasyIconMaker
 {
+#if UNITY_EDITOR
     public class HandlerCameraRender
     {
         public static Texture2D MakePreview(Camera captureCamera, string folderPathf, string name, int size = 256, Texture texBG = null)
@@ -54,4 +55,5 @@ namespace EasyIconMaker
             Graphics.Blit(texBG, captureCamera.targetTexture);
         }
     }
+#endif
 }
