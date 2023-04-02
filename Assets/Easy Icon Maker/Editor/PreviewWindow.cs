@@ -6,7 +6,7 @@ namespace EasyIconMaker
     public class PreviewWindow : EditorWindow
     {
         private static PreviewWindow window;
-        private PreviewWindowDrawler previewRender;
+        private PreviewWindowDrawer previewRender;
 
         [MenuItem("Tools/Easy Icon Maker")]
         private static void Init()
@@ -25,8 +25,8 @@ namespace EasyIconMaker
 
             previewScene = new PreviewScene();
 
-            PreviewWindowDrawler.PreviewSceneInstance = previewScene;
-            previewRender = new PreviewWindowDrawler();
+            PreviewWindowDrawer.PreviewSceneInstance = previewScene;
+            previewRender = new PreviewWindowDrawer();
 
             previewRect = new Rect();
 
