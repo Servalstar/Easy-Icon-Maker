@@ -31,6 +31,7 @@ namespace EasyIconMaker
             if (texBG != null)
                 Graphics.Blit(texBG, targetTexture);
 
+            captureCamera.rect = new Rect(new Vector2(0, 0), new Vector2(256, 256));
             captureCamera.targetTexture = targetTexture;
             captureCamera.forceIntoRenderTexture = true;
             captureCamera.Render();
